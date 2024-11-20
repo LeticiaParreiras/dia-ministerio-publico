@@ -4,66 +4,64 @@
     box-sizing: border-box;
 
 }
+.menu{
+align-items: center;
+display: flex;
+background-color: rgb(13, 110, 253);
 
-#menu-h {
-    background-color: rgb(218, 218, 218);
-    position: fixed;
-    top: 0;
-    width: 100%; 
-    z-index: 1000; 
-    
 }
 
-#menu-h ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-#menu-h ul li {
-    display: inline;
-}
-
-#menu-h ul li a {
-    color: white;
+.logo img{
+    width: 70px;
     padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: color 0.4s;
 }
+.nav-pills .nav-link  {
+    color: rgb(255, 255, 255);
+   
+  }
 
-#menu-h ul li a:hover {
-    color: black;
-}
-
-#menu-h img {
-    padding: 20pX;
-    position: absolute;
-    left: 10px;
-    width: 180px;
+.nav-pills .nav-link:hover{
+    transition: 0.5s; 
+    color: #022ca1;
+    background-color: #e2e2e2;
+    
+    
 }
 
 .contanier
 {
-    flex-wrap: wrap;
+   
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 100%;
     align-content: center;
-    margin-top: 100px;
+    
 }
-.img{
+
+.txt{
+    max-width: 60%;
+    padding: 10px;
+}
+
+.contanier .img {
+    padding: 20px;
     width: 40%;
 }
-.txt{
-    min-width: 60%;
-    padding: 10px;
+
+.contanier .img img{
+    border-radius: 8px; /* Arredonda os cantos da imagem, opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para destaque, opcional */
 }
-.contanier img{
-    max-width: 600px; min-width: 200px;
-    padding: 10px;
+figcaption {
+    font-size: 14px;
+    color: #666; /* Cor da legenda */
+    margin-top: 8px; /* Espaço entre a imagem e a legenda */
+    font-style: italic; /* Deixa o texto em itálico */
+}
+.txt h1{
+    color: #0036c9;
+}
+.txt h2{
+    color: #0036c9;
 }
